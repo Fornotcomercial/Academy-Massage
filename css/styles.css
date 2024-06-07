@@ -64,7 +64,11 @@ ul {
   position: relative;
   display: block;
 }
-
+.hrebet{
+  color: #2196f3;
+  padding-left: 30px;
+  font-size: 25px;
+}
 
 
   .main_box {
