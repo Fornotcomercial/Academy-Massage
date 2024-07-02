@@ -11,20 +11,12 @@
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" >
     <link rel="stylesheet" href="./css/styles.css" >
+    <link rel="stylesheet" href="./css/burger.css" >
 </head>
 <body class="main_box">
-    <header class="header nav-head">
-        <div class="container nav-head">
-            <nav class="nav-container">
-                <div class="pictures_box_footer">
-                    <a href="https://www.youtube.com/@massage_master_official/featured">
-                        <img class="bercha_logo"
-                            src="https://yt3.googleusercontent.com/hEZBVEHMbF0B21UU_Hgo9NemkiwSv0pESxhon_yxcVQzsejhI4qNEBRELu_6rJ0jeDCviqhKkJ0=s176-c-k-c0x00ffffff-no-rj"
-                            width="50" height="50">
-                    </a>
-                    <a class="pictures_text" href="https://www.youtube.com/@massage_master_official/featured"> <span
-                            class="youtube">YouTube :</span> MASTER - <br>Авторська школа масажу <br>Олексія Берчі</a>
-                </div>
+    <input type="checkbox" id="burger">
+        <label for="burger"></label>
+    <header class="header">
                 <ul class="nav">
                     <li class="item"><a href="../Academy-Massage/index.html" class="link-accent">Головна</a></li>
                     <li class="item"><a href="../Academy-Massage/ergonomic.html" class="nav-link">Ергономіка</a></li>
@@ -43,15 +35,20 @@
                     <li class="item"><a href="../Academy-Massage/manadgment.html" class="nav-link">SPA Менеджмент</a></li>
                     <li class="item"><a href="../Academy-Massage/dictionary.html" class="nav-link">Словник</a></li>
                 </ul>
-            </nav>
-        </div>
     </header>
 
-    <h1 class="main_text">Конспект</h1> <span class="youtube"> ( Не для комерційної діяльності )</span>
+    <div class="conspect"><h1 class="main_text">Конспект</h1>
+         <!-- <span class="youtube"> ( Не для комерційної діяльності )</span> -->
         <p class="paragraf">
-            <span class="note"> Попередження:</span>  Деякі відео матеріали є розробкою міжнародної освітньої платформи «Master» та захищені законом. Права інтелектуальної власності належать авторам відео. Будь-яке розповсюдження або комерційне використання відеоматеріалів без згоди власників, тягуть за собою адимнистративну або кримінальну відповідальність згідно з законом " Про авторське право і суміжні права".
-                </p>
-    <div>
+            <span class="note"> Попередження:</span> <br><br> Деякі відео матеріали є розробкою міжнародної 
+            освітньої платформи «Master» та захищені законом. Права інтелектуальної власності 
+            належать авторам відео. Будь-яке розповсюдження або комерційне використання 
+            відеоматеріалів без згоди власників, тягуть за собою адимнистративну або 
+            кримінальну відповідальність згідно з законом " Про авторське право і суміжні права".
+        </p>
+    </div>
+
+                <div>
         <ul class="flex_contener">
         </li><li class="list_box">
             <div class="pictures_box">
@@ -154,15 +151,307 @@
         </ul>
         
     </div>
-    <!-- <footer>
-        <div class="pictures_box_footer">
-            <a  href="https://www.youtube.com/@massage_master_official/featured">
-                <img class="bercha_logo" src="https://yt3.googleusercontent.com/hEZBVEHMbF0B21UU_Hgo9NemkiwSv0pESxhon_yxcVQzsejhI4qNEBRELu_6rJ0jeDCviqhKkJ0=s176-c-k-c0x00ffffff-no-rj" width="50px" height="50px">   
-            </a>
-            <a class="pictures_text" href="https://www.youtube.com/@massage_master_official/featured"> <span class="youtube">YoyTube :</span> MASTER - Авторська школа масажу Олексія Берчі</a> 
-        </div>
-
-
-</footer> -->
+    <footer>
+        <section class="section section-color">
+            <div class="container_main">
+             <h2 class="our-activities">Викладачі</h2>
+               <!--<div class="teamsection-box">-->
+                <ul class="our-team">
+            
+                    <li class="li-team">
+                        <img class="foto" src="../Academy-Massage/img/bercha.jpg" width=200 alt="фото Олексій Берча">
+                        <div class="person-information">
+                            <h3 class="worck-team">Олексій Берча</h3>
+                            <p class="person">Керівник проекту "MASTER"</p>
+                        </div>
+                        <!--Список ссылок соцсетей-->
+                        <ul class="soc-icon">
+                            <li class="soc-link">
+                                <a href="https://www.instagram.com/olexii_bercha_master/" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="../Academy-Massage/svg/symbol-defs.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="soc-link">
+                                <a href="https://www.youtube.com/@massage_master_official/featured" class="soc-link-box-none_active">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="../Academy-Massage/svg/symbol-defs.svg#icon-play"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        
+                            <li class="soc-link">
+                                <a href="https://www.facebook.com/p/%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9-%D0%91%D0%B5%D1%80%D1%87%D0%B0-100001263278393/" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="soc-link">
+                                <a href="tel:+380508828515" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="../Academy-Massage/svg/symbol-defs.svg#icon-telegram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    </li>
+                        
+                    <li class="li-team">
+                        <img class="foto" src="../Academy-Massage/img/Ganna.jpg" width=200 alt="фото Ганна Адміністратор">
+                        <div class="person-information">
+                            <h3 class="worck-team">Ганна</h3>
+                            <p class="person">Адміністратор</p>
+                        </div>
+                        <!--Список ссылок соцсетей-->
+                        <ul class="soc-icon">
+                            <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="../Academy-Massage/svg/symbol-defs.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="soc-link">
+                                <a href="tel:+380967687908" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="../Academy-Massage/svg/symbol-defs.svg#icon-whatsapp"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        
+                            <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="../Academy-Massage/svg/symbol-defs.svg#icon-telegram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="../Academy-Massage/svg/symbol-defs.svg#icon-mail4"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+    
+                
+                    <li class="li-team">
+                        <img class="foto" src="../Academy-Massage/img/Mari.jpg" width=200 alt="фото Марія Классика, масаж обличча">
+                        <div class="person-information">
+                            <h3 class="worck-team">Марія</h3>
+                            <p class="person">Классика, масаж обличча</p>
+                        </div>
+                        <!--Список ссылок соцсетей-->
+                        <ul class="soc-icon">
+                            <li class="soc-link">
+                                <a href="https://www.instagram.com/dr_mari_massage?igsh=MXhlb3JpbjQ4eTR3eA==" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="../Academy-Massage/svg/symbol-defs.svg#icon-telegram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        
+                            <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <!-- <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li> -->
+                        </ul>
+                    </li>
+    
+                
+                    <li class="li-team">
+                        <img src="../Academy-Massage/img/vova.jpg" width=200 alt="фото Олег Анатомія">
+                        <div class="person-information">
+                            <h3 class="worck-team">Олег(фото тимчасове)</h3>
+                            <p class="person">Анатомія</p>
+                        </div>
+                        <!--Список ссылок соцсетей-->
+                        <ul class="soc-icon">
+                            <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="../Academy-Massage/svg/symbol-defs.svg#icon-telegram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        
+                            <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <!-- <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>  -->
+                        </ul>
+                    </li>
+                        
+                
+                    <li class="li-team">
+                        <img class="foto" src="../Academy-Massage/img/Andrey.jpg" width=200 alt="фото Андрій Тайський, Бірманський">
+                        <div class="person-information">
+                            <h3 class="worck-team">Андрій</h3>
+                            <p class="person">Тайський, Бірманський</p>
+                        </div>
+                        <!--Список ссылок соцсетей-->
+                        <ul class="soc-icon">
+                            <li class="soc-link">
+                                <a href="https://www.instagram.com/massage.soma/?igsh=MTJhZW04b2ZndTNwMA%3D%3D" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="../Academy-Massage/svg/symbol-defs.svg#icon-telegram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        
+                            <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <!-- <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li> -->
+                        </ul>
+                    </li>
+    
+                    <li class="li-team">
+                        <img class="foto"src="../Academy-Massage/img/Jana.jpg" width=200 alt="фото Яна Коррекція фігури">
+                        <div class="person-information">
+                            <h3 class="worck-team">Яна</h3>
+                            <p class="person">Коррекція фігури</p>
+                        </div>
+                        <!--Список ссылок соцсетей-->
+                        <ul class="soc-icon">
+                            <li class="soc-link">
+                                <a href="https://www.instagram.com/tihonova.yana/?igsh=dGEzMXoxM3ltODc0" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="../Academy-Massage/svg/symbol-defs.svg#icon-telegram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <!-- <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li> -->
+                        </ul>
+                    </li>
+                    <li class="li-team">
+                        <img class="foto" src="../Academy-Massage/img/Lifanov.jpg" width=200 alt="фото Сергій Ліфанов">
+                        <div class="person-information">
+                            <h3 class="worck-team">Сергій Ліфанов</h3>
+                            <p class="person">Релаксуючий</p>
+                        </div>
+                        <!--Список ссылок соцсетей-->
+                        <!-- Фейсбук
+                        твиттер
+                        инстаграмм
+                        линкедин
+                        ватсап
+                        вайбер
+                        телеграмм
+                        ютуб
+                        майл
+                        Тикток -->
+                        <ul class="soc-icon">
+                            <li class="soc-link">
+                                <a href="https://www.instagram.com/lifanovpsy/" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="../Academy-Massage/svg/symbol-defs.svg#icon-telegram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        
+                            <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="soc-link">
+                                <a href="" class="soc-link-box">
+                                    <svg width="20" height="20" class="instagram">
+                                        <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </footer>
   </body>
 </html>
