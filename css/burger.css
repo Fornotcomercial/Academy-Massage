@@ -138,11 +138,12 @@ padding: 0%;
 .nav .item + .item{
     /* margin:5px; */
     font-size: 20px;
+    margin: 0;
 }
 .link-accent {
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 30px;
+    font-size: 25px;
 }
 .our-team {
     flex-direction: column;
